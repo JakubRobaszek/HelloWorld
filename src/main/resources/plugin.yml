@@ -5,6 +5,10 @@ api-version: '1.21.1'
 authors: [ fini69 ]
 description: A simple Hello World plugin for Paper Minecraft.
 
+commands:
+  hello:
+    description: Says hello to the player
+    usage: /<command>
 permissions:
   helloworld.hello:
-    description: "Allows the player to use the hello command"
+    description: Allows the player to use the hello command
