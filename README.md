@@ -15,6 +15,14 @@
 
 HelloWorld is a simple Minecraft plugin written in Kotlin for Paper servers. It introduces a command that greets players when they use `/hello`. This plugin serves as a great starting point for anyone looking to develop plugins for Minecraft.
 
+ - Native Minecraft Version:
+
+   - 1.21.1
+
+ - Tested Minecraft Versions:
+
+   - 1.8 1.9 1.10 1.11 1.12 1.13 1.14 1.15 1.16 1.17 1.18 1.19 1.20 1.21
+
 ## Features
 
 - Greet players with a custom message when they type `/hello`.
