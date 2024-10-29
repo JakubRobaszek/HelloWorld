@@ -8,7 +8,9 @@ description: A simple Hello World plugin for Paper Minecraft.
 commands:
   hello:
     description: Says hello to the player
+    aliases: [hi]
     usage: /<command>
 permissions:
   helloworld.hello:
     description: Allows the player to use the hello command
+    default: true

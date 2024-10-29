@@ -1,5 +1,6 @@
 package me.fini69.helloworld
 
+import org.bukkit.ChatColor
 import org.bukkit.command.Command
 import org.bukkit.command.CommandSender
 import org.bukkit.entity.Player
@@ -23,7 +24,11 @@ class HelloWorld : JavaPlugin() {
             when(command.name) {
                 "hello" -> {
                     if(args.isEmpty()) {
-                        sender.sendMessage("Hello ${sender.name}!")
+                        if (sender.hasPermission("helloworld.hello")) {
+                            sender.sendMessage("${ChatColor.GREEN}Hello, ${ChatColor.AQUA}${sender.name}${ChatColor.GREEN}! Welcome to the server!")
+                        } else {
+                            sender.sendMessage("${ChatColor.RED}You do not have permission to use this command.")
+                        }
                     }
                 }
             }
