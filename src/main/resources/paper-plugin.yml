@@ -1,0 +1,6 @@
+name: HelloWorld
+version: '1.0'
+main: me.fini69.helloworld.HelloWorld
+api-version: '1.21.1'
+authors: [ fini69 ]
+description: A simple Hello World plugin for Paper Minecraft.
